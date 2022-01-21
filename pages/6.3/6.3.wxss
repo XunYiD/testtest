@@ -1,0 +1,96 @@
+/* pages/6.3/6.3.wxss */
+page{
+    background-color: #f4f9f9;
+}
+.bg{
+    background-color: #1beedf;
+    height:100rpx;
+    width:100%;
+    position:relative;
+    z-index:-2;
+   }
+.bg-1{
+    background-color: #1beedf;
+    height:250rpx;
+    width:100%;
+    position:absolute;
+    z-index:-2;
+
+}
+.leave{
+    height:50rpx;
+    width:50rpx;
+    margin-left:25rpx;
+}
+.text{
+    color:#ffffff;
+    top:50rpx;
+    left:50rpx;
+  
+    font-size:45rpx;
+    position: absolute;
+
+}
+
+.avatar{
+    z-index: 0;
+    position: absolute;
+    margin-top: 25rpx;
+    margin-left: 270rpx;
+}
+.card{
+    z-index:-1;
+    position:absolute;
+    border:1rpx solid #dfdfdf;
+    height:300rpx;
+    width:700rpx;
+    margin-left:23rpx;
+    margin-top:100rpx;
+    border-radius: 20rpx;
+    background-color: #ffffff;
+}
+.motto-one{
+    position:absolute;
+    margin-top:90rpx;
+    margin-left:260rpx;
+   
+    font-weight: bold;
+    
+}
+.al-reg{
+    height:150rpx;
+    width:150rpx;
+    margin-left:550rpx;
+    position:absolute
+
+}
+.ins{
+    z-index:-1;
+    height:40rpx;
+    width:200rpx;
+    margin-left:238rpx;
+    margin-top:160rpx;
+    position:absolute;
+}
+.hat{
+    width:35rpx;
+    height:30rpx;
+    margin-top:220rpx;
+    position:absolute;
+    margin-left: 250rpx;
+}
+.school{
+    position: absolute;
+    margin-top:218rpx;
+    margin-left:295rpx;
+    font-size:25rpx;
+}
+.list{
+    margin-top:430rpx;
+}
+.re-reg{
+    margin-top:30rpx;
+    margin-left:185rpx;
+    width:350rpx;
+    height:70rpx;
+}

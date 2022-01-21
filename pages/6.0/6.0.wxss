@@ -1,0 +1,36 @@
+/* pages/6.0/6.0.wxss */
+.leave{
+    height:46rpx;
+    width:25rpx;
+    display:flex;
+    align-content: flex-start;
+    margin-left: 20rpx;
+    margin-right: auto;
+    margin-top: auto;
+}
+.bg{
+    border: 1rpx solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    margin-top:20rpx;
+    height:600rpx;
+    display:flex;
+    flex-direction: column;
+}
+page{
+    background-color: #f4f9f9;
+}
+.certification-text{
+    margin-top:35rpx;
+    margin-left:50rpx;
+    font-size:45rpx;
+    color:#444444;
+}
+.certification-image{
+    width:350rpx;
+    height:75rpx;
+    margin-top:90rpx;
+    margin-left: 150rpx;
+}

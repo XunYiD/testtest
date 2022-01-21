@@ -1,0 +1,13 @@
+<!--components/s-select/index.wxml-->
+<!--components/s-select/index.wxml-->
+<view class="select-box">
+  <view class="select-current" catchtap="openClose">
+    <input class="current-name" placeholder="请选择年级" name="{{showFieldName3}}" value="{{showFieldVal3}}" data-id="{{keyFieldVal3}}"/>
+    <input class="key-input" name="{{keyFieldName3}}" value="{{keyFieldVal3}}"/>
+  </view>
+  <view class="option-list" wx:if="{{isShow}}">
+    <view wx:for="{{result}}" wx:key="id">
+      <text class="option"  data-id="{{item.id}}" data-value="{{item.name}}" bindtap="clickSelect">{{item.name}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,75 @@
+/* components/s-select/index.wxss */
+/* components/s-select/index.wxss */
+.select-box {
+    position: relative;
+    width: 650rpx;
+    height : 88rpx;
+    font-size: 30rpx;
+    margin-left:auto;
+  }
+   
+  .select-current {
+    
+    position: relative;
+    width: 650rpx;
+    height:88rpx;
+    padding: 0 10rpx;
+    line-height: 70rpx;
+    border: 0.5rpx solid #d1d3d7;
+    border-top-color: #ffffff;
+    border-radius: 6rpx;
+    box-sizing: border-box;
+    margin-bottom: 0.5rpx;
+    margin-left:auto;
+  }
+   
+  .select-current::after {
+      display:flex;
+      align-items: center;
+    position: absolute;
+    display: block;
+    right: 16rpx;
+    top: 30rpx;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10rpx solid transparent;
+    border-top: 10rpx solid #d1d3d7;
+  }
+   
+  .current-name {
+    display: block;
+    width: 85%;
+    height: 70rpx;
+    word-wrap: normal;
+    overflow: hidden;
+  }
+   
+  .option-list {
+    position: absolute;
+    left: 0;
+    top: 76rpx;
+    width: 100%;
+    padding: 12rpx 20rpx 10rpx 20rpx;
+    border-radius: 6rpx;
+    box-sizing: border-box;
+    z-index: 99;
+    box-shadow: 0rpx 0rpx 1rpx 1rpx rcurrent-namegba(0, 0, 0, 0.2) inset;
+    background-color: #d1d3d7;
+  }
+   
+  .option {
+    display: block;
+    width: 100%;
+    line-height: 70rpx;
+    border-bottom: 1rpx solid #dadada;
+  }
+   
+  .option:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+   
+  .key-input{
+    display: none;
+  }

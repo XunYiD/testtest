@@ -1,0 +1,85 @@
+/* pages/6.1/6.1.wxss */
+.leave{
+    height:46rpx;
+    width:25rpx;
+    display:flex;
+    align-content: flex-start;
+    margin-left: 20rpx;
+    margin-right: auto;
+    margin-top: auto;
+}
+page{
+    background-color: #f4f9f9;
+}
+
+container{
+    margin-top:0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.title{
+    display:flex;
+    margin-top:15rpx;
+    margin-left:30rpx;
+   align-content: flex-start;
+   font-size:45rpx;
+}
+.pic{
+    display:flex;
+    margin-top: 30rpx;   
+    margin-bottom: 20rpx;
+}
+.image-display{
+    margin-left: 20rpx;
+    margin-right: 17rpx;
+    height:270rpx;
+    width:401rpx;
+    
+}
+.txt1{
+    margin-left:50rpx;
+    color:#666;
+}
+.txt2{
+    color:#ff0022;
+}
+.input-message{
+    margin-top:20rpx;
+}
+.gender{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1rpx solid #9a9a9a1f;
+    height:80rpx;
+}
+.gender-text{
+    margin-left:22rpx;
+    font-size:28rpx;
+    font-weight: bold;
+}
+.radio-layout{
+    margin-left:150rpx;
+}
+.select-text{
+   margin-left: auto;
+    font-size:28rpx;
+    font-weight: bold;
+}
+.select{
+    margin-left: auto;
+}
+.select-layout{
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1rpx solid #9a9a9a1f;
+}.submit{
+    margin-top:50rpx;
+    margin-left:165rpx;
+    height:80rpx;
+    width:400rpx;
+}

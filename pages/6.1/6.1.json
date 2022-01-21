@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "l-input":"/miniprogram_npm//lin-ui/input/index",
+    "l-radio-group":"/miniprogram_npm/lin-ui/radio-group/index",
+    "l-radio":"/miniprogram_npm/lin-ui/radio/index",
+    "ins-select":"/components/ins-select/index",
+    "maj-select":"/components/maj-select/index",
+    "gra-select":"/components/gra-select/index",
+    "l-list":"/miniprogram_npm/lin-ui/list/index"
+  }
+}

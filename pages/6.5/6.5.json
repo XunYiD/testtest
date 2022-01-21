@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-radio-group":"/miniprogram_npm/lin-ui/radio-group/index",
+    "l-radio":"/miniprogram_npm/lin-ui/radio/index"
+  }
+}

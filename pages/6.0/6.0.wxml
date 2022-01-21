@@ -1,0 +1,6 @@
+<image class="leave" src="/use/left.png"></image>
+<view class="bg">
+<text class="certification-text">请选择认证方式</text>
+<image class="certification-image" src="/use/lis-reg.png"></image>
+<image class="certification-image" src="/use/ans-reg.png"></image>
+</view>

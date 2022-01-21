@@ -1,0 +1,92 @@
+/* pages/6.2/6.2.wxss */
+page{
+    background-color: #f4f9f9;
+}
+.leave{
+    height:46rpx;
+    width:25rpx;
+    display:flex;
+    align-content: flex-start;
+    margin-left: 20rpx;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 15rpx;
+}
+.bg{
+    border: 1rpx solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    margin-top:25rpx;
+    height:500rpx;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-text{
+    margin-left:45rpx;
+    font-size:45rpx;
+    color:#383838;
+}
+.avatar{
+    width:200rpx;
+    height:200rpx;
+    margin-top:50rpx;
+   
+}
+.motto-one{
+    margin-left:25rpx;
+    margin-top:30rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+.reg-view{
+    border: 1rpx solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    margin-top:25rpx;
+    height:70rpx;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reg{
+    height:40rpx;
+    width:50rpx;
+    
+}
+.stu-reg{
+    margin-left:35rpx;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.font{
+    margin-left:10rpx;
+    font-size:25rpx;
+    font-weight:600;
+}
+.al-reg{
+    margin-left:300rpx;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+.gender{
+    margin-left:20rpx;
+    margin-top:20rpx;
+    height:40rpx;
+    width:40rpx;
+}
+.info{
+    color:#45526b;
+    font-weight:530;
+}
