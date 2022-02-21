@@ -1,24 +1,26 @@
 <!--pages/6.3/6.3.wxml-->
 <view class="bg">
 <view class="bg-1">
-<image class="leave" src="/use/left_g.png"></image>
-<text class="text">个人信息</text>
+<image bind:tap="onBack" class="leave" src="{{leaveSrc}}"></image>
+<text class="text">{{title}}</text>
 </view>
 </view>
-<l-avatar  class="avatar" placement="bottom" open-data= "{{['userAvatarUrl']}}" size ="180"/>
-<view class="card">
-    <l-avatar class="motto-one" open-data = "{{['userNickName']}}"/>
-    <image class="al-reg" src="/use/al-reg.png"></image>
-    <image class="ins"  src="/use/ins.png"></image>
-    <image class="hat" src="/use/hat.png"></image>
-    <text class="school">武汉大学</text>
+<l-avatar bind:tap="onDetail" class="avatar" placement="bottom" open-data= "{{['userAvatarUrl']}}" size ="180"/>
+<view bind:tap="onDetail" class="card">
+    <l-avatar bind:tap="onDetail" class="motto-one" open-data = "{{['userNickName']}}"/>
+    <image  class="al-reg" src="{item.status == 1 ? alRegSrc : }}"></image>
+    <view class="ins"  >
+    <text class="ins-text">{{insText}}</text>
+    </view>
+    <image  class="hat" src="{{hatSrc}}"></image>
+    <text  class="school">{{school}}</text>
 </view>
 <view class="list">
 <l-list  title="姓名" is-link="{{false}}" right-desc="张" /> 
-<l-list title="学院" right-desc="计算机学院"/>
-<l-list title="专业" right-desc="计算机科学与技术"/>
-<l-list title="手机" is-link="{{false}}" right-desc="151****7757"/>
-<l-list title="入学时间" right-desc="2019"/>
-<l-list title="学历 " right-desc="本科"/>
+<l-list title="学院" right-desc="{{insText}}"/>
+<l-list title="专业" right-desc="{{majText}}"/>
+<l-list title="手机" is-link="{{false}}" right-desc="{{phone}}"/>
+<l-list title="入学时间" right-desc="{{grade}}"/>
+<l-list title="学历 " right-desc="{{edu}}"/>
 </view>
-<image class="re-reg" src="/use/re-reg.png"></image>
+<image catch:tap="onReReg" class="re-reg" src="{{reRegSrc}}"></image>

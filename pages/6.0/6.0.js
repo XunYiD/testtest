@@ -5,7 +5,9 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        certext:"请选择认证方式",
+        srclis:"/use/lis-reg.png",
+        srcans:"/use/ans-reg.png"
     },
 
     /**
@@ -13,6 +15,16 @@ Page({
      */
     onLoad: function (options) {
 
+    },
+    onLis(event){
+        wx.redirectTo({
+          url: '/pages/6.1/6.1',
+        })
+    },
+    onAns(event){
+        wx.redirectTo({
+          url: '/pages/6.5/6.5',
+        })
     },
 
     /**

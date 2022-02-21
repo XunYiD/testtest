@@ -66,7 +66,21 @@ data: {
     showFieldName2: "majName",
     keyFieldName2: "majCode",
     showFieldName3: "graName",
-    keyFieldName3: "graCode"
+    keyFieldName3: "graCode",
+    leaveSrc:"/use/left.png",
+    title:"学生认证",
+    jusSrc:"/use/jus.png",
+    opSrc:"/use/op.png",
+    txt1:"注：  认证类型仅支持 ",
+    txt2:"学生证  校园卡",
+    gender:"性别",
+    male:"男",
+    female:"女",
+    ins:"学院",
+    maj:"专业",
+    grade:"年级",
+    submitSrc:"/use/submit.png"
+
   },
 
 
@@ -75,6 +89,11 @@ data: {
      */
     onLoad: function (options) {
 
+    },
+    onBack(event){
+  wx.redirectTo({
+  url: '/pages/6.0/6.0',
+})
     },
 
     /**

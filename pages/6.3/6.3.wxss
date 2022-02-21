@@ -71,6 +71,17 @@ page{
     margin-left:238rpx;
     margin-top:160rpx;
     position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1rpx solid #1beedf;
+    border-radius: 18rpx;
+    background-color: #1beedf;
+}
+.ins-text{
+    color:#ffffff;
+    font-size:27rpx;
+   
 }
 .hat{
     width:35rpx;

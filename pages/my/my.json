@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    
+    "l-grid":"/miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item":"/miniprogram_npm/lin-ui/grid-item/index",
+    "l-rate":"/miniprogram_npm/lin-ui/rate/index",
+    "l-ava":"/miniprogram_npm/lin-ui/ava/index",
+    "l-list":"/miniprogram_npm/lin-ui/list"
+    
+    
+  },
+  "navigationBarBackgroundColor": "#1beedf"
+}

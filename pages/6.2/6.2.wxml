@@ -1,22 +1,23 @@
 <!--pages/6.2/6.2.wxml-->
-<image class="leave" src="/use/left.png"></image>
-<text class="info-text">个人信息</text>
+<image bind:tap="onBack" class="leave" src="{{leaveSrc}}"></image>
+<text class="info-text">{{infoText}}</text>
 <view class="bg">
     <l-avatar  class="avatar" placement="bottom" open-data= "{{['userAvatarUrl']}}" size ="200"/>
 <view class="name">
 <l-avatar class="motto-one" open-data = "{{['userNickName']}}"/>
-<image class="gender" src="/use/female.png"></image>
+<image wx:if="{{item.genderStatus}}==0" class="gender" src="{{genderSrc.femaleSrc}}"></image>
+<image wx:else class="gender" src="{{genderSrc.maleSrc}}"></image>
 </view>
-<text class="info">武汉大学-计算机学院-本科-2017级</text>
+<text class="info">{{info}}</text>
 </view>
 <view class="reg-view">
    <view class="stu-reg">
-    <image class="reg" src="/use/stu-reg.png">
+    <image class="reg" src="{{stuSrc}}">
     </image>
-    <text class="font">学生认证</text>
+    <text class="font">{{stuText}}</text>
     </view>
     <view class="al-reg">
-    <image class="reg" src="/use/yes.png"></image>
-    <text class="font">已认证</text>
+    <image class="reg" src="{{item.status == 1 ? situSrc.yes : situSrc.loading}}"></image>
+    <text class="font">{{item.status == 1 ? situ.yes : situ.loading}}</text>
     </view>
 </view>

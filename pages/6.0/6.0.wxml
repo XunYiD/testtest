@@ -1,6 +1,6 @@
 <image class="leave" src="/use/left.png"></image>
 <view class="bg">
-<text class="certification-text">请选择认证方式</text>
-<image class="certification-image" src="/use/lis-reg.png"></image>
-<image class="certification-image" src="/use/ans-reg.png"></image>
+<text class="certification-text">{{certext}}</text>
+<image catch:tap="onLis" class="certification-image" src="{{srclis}}"></image>
+<image catch:tap="onAns" class="certification-image" src="{{srcans}}"></image>
 </view>

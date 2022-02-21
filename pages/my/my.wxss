@@ -1,0 +1,101 @@
+page{
+    background-color: #f4f9f9;
+}
+.bg{
+    background-color: #1beedf;
+    height:280rpx;
+    width:100%;
+    border-radius: 0rpx 0rpx 40rpx 40rpx;
+    position:absolute;
+    z-index:-1;
+   }
+   .card{
+    z-index:-1;
+    position:absolute;
+    height:325rpx;
+    width:700rpx;
+    margin-left:23rpx;
+    margin-top:30rpx;
+    border-radius: 20rpx;
+    background-color: #ffffff;
+}
+.avatar{
+    z-index:-1;
+    position:absolute;
+    margin-left:35rpx;
+    margin-top:45rpx;
+    
+}
+.school{
+    position:absolute;
+    margin-left:180rpx;
+    margin-top:126rpx;
+    font-size:25rpx;
+    font-weight:bold;
+}
+.reg{
+    position:absolute;
+    z-index: -1;
+    height:60rpx;
+    width:60rpx;
+    margin-top:118rpx;
+    margin-left:290rpx;
+}
+.line{
+    
+    border-bottom: solid 1rpx #f6f5f6;
+    margin-top:190rpx;
+    margin-left:50rpx;
+    margin-right:50rpx;
+}
+.num{
+    color:#0a0a0a;
+    font-size:33rpx;
+    font-weight: bold;
+}
+.text{
+    color:#a2a2a2;
+    font-size: 24rpx;
+}
+.edit{
+    position:absolute;
+    height:45rpx;
+    width:45rpx;
+    margin-top:15rpx;
+    margin-left:630rpx;
+}
+.card-one{
+    z-index:-1;
+    position:absolute;   
+    height:70rpx;
+    width:700rpx;
+    margin-left:23rpx;
+    margin-top:365rpx;
+    border-radius: 20rpx;
+    background-color: #ffffff;
+}
+.credit{
+    position:absolute;
+    margin-left:160rpx;
+    margin-top:18rpx;
+    font-size:26rpx;
+    font-weight:555;
+    
+}
+.star{
+    position: absolute;
+    margin-left:280rpx;
+    margin-top:15rpx;
+}
+.card-two{
+    z-index:-1;
+    position:absolute;   
+    height:618rpx;
+    width:700rpx;
+    margin-left:23rpx;
+    margin-top:445rpx;
+    border-radius: 20rpx;
+    background-color: #ffffff;
+}
+
+ 

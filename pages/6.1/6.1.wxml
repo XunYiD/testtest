@@ -1,21 +1,21 @@
 <!--pages/6.1/6.1.wxml-->
-<image class="leave" src="/use/left.png"></image>
-<text class="title">学生认证</text>
+<image catch:tap="onBack" class="leave" src="{{leaveSrc}}"></image>
+<text class="title">{{title}}</text>
 
 
     <view class="pic">
-    <image class="image-display" src="/use/jus.png"></image>
-    <image class="image-display" src="/use/op.png"></image>
+    <image class="image-display" src="{{jusSrc}}"></image>
+    <image class="image-display" src="{{opSrc}}"></image>
    </view>
-   <text class="txt1"> 注： 认证类型仅支持 </text>
-   <text class="txt2"> 学生证  校园卡</text>
+   <text class="txt1">{{txt1}}</text>
+   <text class="txt2"> {{txt2}}</text>
    <view class="input-message">
    <l-input label="姓名"/>
    
    <l-radio-group class="gender" placement="row">
-   <text class="gender-text">性别</text>
-   <l-radio class="radio-layout" select-color="#1beedf" key="1">男</l-radio>
-   <l-radio class="radio-layout" select-color="#1beedf" key="2">女</l-radio>
+   <text class="gender-text">{{gender}}</text>
+   <l-radio class="radio-layout" select-color="#1beedf" key="1">{{male}}</l-radio>
+   <l-radio class="radio-layout" select-color="#1beedf" key="2">{{female}}</l-radio>
    </l-radio-group>
   
     
@@ -23,19 +23,19 @@
    <l-input  label="学校"/>
    <!--page/home/home.wxml-->
    <view class="select-layout">
-   <text class="select-text">学院</text>
+   <text class="select-text">{{ins}}</text>
    <ins-select class="select" options="{{options_ins}}" showFieldName1="insName" keyFieldName1="insCode">
    </ins-select>
    </view>
     <view class="select-layout">
-    <text class="select-text">专业</text>
+    <text class="select-text">{{maj}}</text>
    <maj-select class="select" options="{{options_maj}}" showFieldName2="majName" keyFieldName2="majCode"></maj-select>
    </view>
    <view class="select-layout">
-   <text class="select-text">年级</text>
+   <text class="select-text">{{grade}}</text>
    <gra-select class="select" options="{{options_gra}}" showFieldName3="graName" keyFieldName3="graCode"></gra-select>
    </view>
    </view>
-   <image class="submit" src="/use/submit.png"></image>
+   <image class="submit" src="{{submitSrc}}"></image>
 
 

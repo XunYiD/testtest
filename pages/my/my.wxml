@@ -1,0 +1,50 @@
+<view class="bg">
+</view>
+<view class="card">
+    <image class="edit" src="/use/edit.png"></image>
+    <view>
+        <l-ava class="avatar" open-data="{{['userAvatarUrl','userNickName']}}" />
+    
+        <view >
+             <text class="school">{{school}}
+            </text>
+            <image class="reg" src="{{ item.status== 1 ? situSrc.yes :situSrc.loading}}"></image>
+           
+        </view>
+        
+        
+    </view>
+    <view class="line"></view>
+    <view >
+        <l-grid>
+    <l-grid-item key="one" slot="one">
+        <view class="num">{{leftmoneynum}}</view>
+        <view class="text">{{leftmoney}}</view>
+     </l-grid-item>
+    <l-grid-item key="two" slot="two">
+        <view class="num">{{receivenum}}</view>
+        <view class="text">{{receive}}</view>
+    </l-grid-item>
+    <l-grid-item key="three" slot="three">
+        <view class="num">{{publishnum}}</view>
+        <view class="text">{{publish}}</view>
+    </l-grid-item>
+</l-grid>
+    </view>
+</view>
+
+<view class="card-one">
+    <text class="credit">{{credit}}</text>
+    <l-rate class="star" score="4" active-color="#FFDD55" inActive-color="#FFF5CE" />
+</view>
+<view class="card-two">
+    <l-list image="/use/reg.png" title="{{stureg}}" />
+    <l-list image="/use/mine.png" title="{{mypublish}}"  />
+    <l-list image="/use/finish.png" title="{{myreceive}}"  />
+    <l-list image="/use/star.png" title="{{mycollection}}" />
+    <l-list image="/use/suggest.png" title="{{myask}}"  />
+    <l-list image="/use/service.png" title="{{onlineservice}}"  />
+    <l-list image="/use/aboutus.png" is-link="{{false}}" title="{{aboutus}}"  />
+</view>
+
+<tabBar list="{{list}}" />

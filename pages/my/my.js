@@ -1,16 +1,31 @@
-// pages/6.5/6.5.js
+// pages/6.6/6.6.js
 Page({
-
+    
+      
     /**
      * 页面的初始数据
      */
     data: {
-       leaveSrc: "/use/left.png",
-       title:"答题认证",
-       question:"信息学部主教学楼叫什么?",
-       ans1:"一教",
-       ans2:"青楼",
-       nextSrc:"/use/next.png"
+        school:"武汉大学",
+        status:"1",
+        situSrc:{
+            yes:"/use/al-reg-square.png",
+            loading:"/use/no-reg-square.png"
+        },
+        leftmoney:"余额",
+        leftmoneynum:"50",
+        receive:"接单",
+        receivenum:"21",
+        publish:"发布",
+        publishnum:"16",
+        credit:"综合信用",
+        stureg:"学生认证",
+        mypublish:"我的发布",
+        myreceive:"我的接单",
+        mycollection:"我的收藏",
+        myask:"我的举报",
+        onlineservice:"在线客服",
+        aboutus:"关于我们"
     },
 
     /**
@@ -18,17 +33,6 @@ Page({
      */
     onLoad: function (options) {
 
-    },
-    onsub(event)
-    {
-        wx.redirectTo({
-          url: '/pages/6.3/6.3',
-        })
-    },
-    onBack(event){
-        wx.redirectTo({
-          url: '/pages/6.0/6.0',
-        })
     },
 
     /**

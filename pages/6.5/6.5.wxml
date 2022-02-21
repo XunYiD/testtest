@@ -1,12 +1,12 @@
 <!--pages/6.5/6.5.wxml-->
-<image class="leave" src="/use/left.png"></image>
-<text class="cer-text">答题认证</text>
+<image catch:tap="onBack" class="leave" src="{{leaveSrc}}"></image>
+<text class="cer-text">{{title}}</text>
 <view class="bg">
-<text class="question">信息学部主教学楼叫什么?
+<text class="question">{{question}}
 </text>
 <l-radio-group class="select">
-<l-radio class="select-si" size="60rpx" select-color="#1beedf" key="1">一教</l-radio>
-<l-radio class="select-si" size="60rpx" select-color="#1beedf" key="2">青楼</l-radio>
+<l-radio class="select-si" size="60rpx" select-color="#1beedf" key="1">{{ans1}}</l-radio>
+<l-radio class="select-si" size="60rpx" select-color="#1beedf" key="2">{{ans2}}</l-radio>
 </l-radio-group>
 </view>
-<image class="next" src="/use/next.png"></image>
+<image catch:tap="onsub" class="next" src="{{nextSrc}}"></image>

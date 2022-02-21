@@ -1,16 +1,11 @@
-// pages/6.5/6.5.js
+// pages/6.6/6.6.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-       leaveSrc: "/use/left.png",
-       title:"答题认证",
-       question:"信息学部主教学楼叫什么?",
-       ans1:"一教",
-       ans2:"青楼",
-       nextSrc:"/use/next.png"
+
     },
 
     /**
@@ -18,17 +13,6 @@ Page({
      */
     onLoad: function (options) {
 
-    },
-    onsub(event)
-    {
-        wx.redirectTo({
-          url: '/pages/6.3/6.3',
-        })
-    },
-    onBack(event){
-        wx.redirectTo({
-          url: '/pages/6.0/6.0',
-        })
     },
 
     /**

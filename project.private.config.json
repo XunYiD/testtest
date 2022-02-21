@@ -47,6 +47,18 @@
                     "pathName": "pages/6.3/6.3",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "scene": null
                 }
             ]
         }

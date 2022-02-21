@@ -4,15 +4,46 @@ Page({
     /**
      * 页面的初始数据
      */
+   
     data: {
+        leaveSrc:"/use/left.png",
+        infoText:"个人信息",
+        genderSrc:{
+            femaleSrc:"/use/female.png",
+            maleSrc:"/use/male.png",
+        },
+       genderStatus:0,
+        info:"武汉大学-计算机学院-本科-2017级",
+        stuSrc:"/use/stu-reg.png",
+        stuText:"学生认证",
+        situSrc:{
+            yes:"/use/yes.png",
+            loading:"/use/loading.png"
+        },
+           situ:{
+               yes:"已认证",
+               loading:"认证中"
+           },
+           status:"0"
+       
+
+
 
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
+  
+     
+  
     onLoad: function (options) {
 
+    },
+    onBack(event){
+        wx.redirectTo({
+          url: '/pages/6.3/6.3',
+        })
     },
 
     /**
